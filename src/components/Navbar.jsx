@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react';
 
-
-const Navbar = ({handleThemeToggle, theme}) => {
+const Navbar = () => {
   const [menuState, setMenuState] = useState('');
   const [screenSize, setScreenSize] = useState(window.innerWidth);
 
