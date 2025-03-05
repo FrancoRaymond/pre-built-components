@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 
 const TypingEffect = ({ typingSpeed = 100, eraseSpeed = 50, delay = 1500 }) => {
-  const texts = ['i love frontend development', 'i recently started backend', 'hoping to be a full stack dev'];
+  const texts = ['This site is made up of', 'different web features that', 'we often see in most websites'];
   const [textIndex, setTextIndex] = useState(0);
   const [displayText, setDisplayText] = useState("");
   const [isDeleting, setIsDeleting] = useState(false);
@@ -30,8 +30,8 @@ const TypingEffect = ({ typingSpeed = 100, eraseSpeed = 50, delay = 1500 }) => {
   }, [displayText, isDeleting, textIndex, texts, typingSpeed, eraseSpeed, delay]);
 
   return (
-    <div className="min-h-screen flex items-center bg-blue-950 justify-center">
-        <span className=" text-4xl  text-white font-semibold">{displayText}|</span>
+    <div className="min-h-screen flex items-center bg-blue-950 justify-center px-2">
+        <span className=" text-4xl md:text-6xl  text-white font-semibold">{displayText}|</span>
     </div>
   );
 };

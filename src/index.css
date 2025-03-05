@@ -11,7 +11,7 @@ body{
     @apply max-w-[1440px]
 }
 .menu .bar{
-    @apply w-5 h-[0.15rem] transition-all duration-500 bg-black
+    @apply w-5 h-[0.15rem] transition-all duration-500 bg-white
 }
 .menu.active .bar1 {
     transform: rotate(46deg);

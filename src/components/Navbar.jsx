@@ -28,7 +28,7 @@ const Navbar = () => {
   const closeMenu = () => setMenuState('');
 
   return (
-    <div className="navbar flex px-2 justify-between py-1 items-center sm:px-5 md:px-16 lg:px-32 z-50  sticky top-0 border-b border-opacity-75 border-black">
+    <div className="navbar bg-black text-white flex px-2 justify-between py-1 items-center sm:px-5 md:px-16 lg:px-32 z-50  sticky top-0 border-b border-opacity-75 border-black">
       <h1 className="text-[1.6rem] font-semibold z-20 sm:text-3xl lg:text-4xl outline-none">
         <a href="/">Logo</a>
       </h1>
